@@ -1,0 +1,35 @@
+.ul01:hover{
+    text-decoration:underline 2px purple;
+}
+.ul02:hover{
+    text-decoration:underline 2px purple;
+}
+.ul03:hover{
+    text-decoration:underline 2px purple;
+}
+.ul01{
+    float:right;
+    display:flex;
+    list-style-type: none;
+}
+.ul02{
+    float:right;
+    display:flex;
+    list-style-type: none;
+}
+.ul03{
+    float:right;
+    display:flex;
+    list-style-type: none;
+}
+img{
+    border-radius:50%;
+    float: right;
+}
+.pg{
+    margin: 7rem;
+    display: flex;
+}
+.pm{
+    color: blueviolet;
+}
