@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="register.css">
+  <title>ฟอร์มสมัครสมาชิก</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: pink;
+    }
+  </style>
+</head>
+<body>
+  <h2>สมัครสมาชิกผู้ใช้งาน</h2>
+
+  <form>
+    <h3>1. ข้อมูลส่วนตัว</h3>
+    <label for="username">ชื่อผู้ใช้:</label>
+    <input type="text" id="username" name="username" required>
+    
+    <label for="fullname">ชื่อ-นามสกุล:</label>   
+    <input type="text" id="fullname" name="fullname" required>
+    <br><br>
+    <label for="phone">เบอร์โทร:</label>   
+    <input type="text" id="phone" name="phone" required>
+    <br><br>
+    <label for="email">อีเมลล์:</label>   
+    <input type="text" id="email" name="email" required>
+    
+    <label for="password">รหัสผ่าน:</label>
+    <input type="password" id="password" name="password" required>
+    <br><br><br>
+
+    <h3>2. ข้อมูลที่อยู่</h3>
+    <label for="num">บ้านเลขที่ :</label>
+    <input type="num" id="num" name="num" required>
+
+    <label for="province">จังหวัด :</label>
+    <select id="province" name="province">
+      <option value="province">เลือกจังหวัด</option>
+      </select>
+      <br><br>
+      <label for="district">อำเภอ :</label>
+    <select id="district" name="district">
+      <option value="district">เลือกอำเภอ</option>
+      </select>
+      <label for="district">ตำบล :</label>
+    <select id="district" name="district">
+      <option value="district">เลือกตำบล</option>
+      </select>
+      <br>
+      <label for="zipcode">รหัสไปรษณี :</label>
+    <input type="zipcode" id="zipcode" name="zipcode" required>
+    <label for="address">รายละเอียดที่อยู่:</label>
+    <textarea id="address" name="address"></textarea>
+    <br><br>
+    <label for="profile_picture">อัพโหลดรูปโปรไฟล์ :</label>
+    <input type="file" id="profile_picture" name="profile_picture">
+    <br><br>
+    <a href="register.html" class="register"><input type="button" name="สมัครสมาชิก" value="สมัครสมาชิก"></a>
+    <button type="reset">ยกเลิก</button>
+  </form>
+</body>
+</html>

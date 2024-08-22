@@ -1,0 +1,26 @@
+
+ body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: pink;
+  }
+  .container {
+    margin: 50px auto;
+    width: 80%;
+  }
+  img {
+    max-width: 100%;
+  }
+  .buttons {
+    margin-top: 30px;
+  }
+  button {
+    background-color:chocolate; 
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer; }

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ข้อความแจ้งเตือน</title>
+  <style>
+   
+    .popup {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #fff;
+      border: 1px solid #ccc;
+      padding: 20px;
+      z-index:   
+ 999;
+    }
+    .message {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    button {
+      padding: 10px 20px;
+      background-color: #0b63d4;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>   
+
+  <div class="popup" id="popup">
+    <div class="message">ข้อความจาก localhost</div>
+    <p>เข้าสู่ระบบไม่สำเร็จ!</p>
+    <button onclick="closePopup()">ตกลง</button>
+  </div>
+
+  <script>
+    
+    function closePopup() {
+      document.getElementById("popup").style.display = "none";
+    }
+  </script>
+</body>
+</html>

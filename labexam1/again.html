@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>แจ้งเตือน Username ซ้ำ</title>
+  <style>
+    .popup {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #fff;
+      border: 1px solid #ccc;
+      padding: 20px;
+      z-index:   
+ 999;
+    }
+    .message {
+      text-align: center;
+    }
+    button {
+      padding: 10px 20px;
+      background-color: red;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="popup" id="popup">
+    <div class="message">ชื่อผู้ใช้ถูกใช้ไปแล้ว</div>
+    <button onclick="closePopup()">ตกลง</button>
+  </div>
+
+  <script>
+    function closePopup() {
+      document.getElementById("popup").style.display = "none";
+    }
+  </script>
+</body>
+</html>
